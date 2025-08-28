@@ -1,0 +1,202 @@
+{
+  "events": [
+    {
+      "id": 6,
+      "global_id": "tribe.localhost?id=6",
+      "global_id_lineage": ["tribe.localhost?id=6"],
+      "author": "1",
+      "status": "publish",
+      "date": "2017-09-21 11:57:52",
+      "date_utc": "2017-09-21 11:57:52",
+      "modified": "2017-09-21 12:03:35",
+      "modified_utc": "2017-09-21 12:03:35",
+      "url": "http://tribe.localhost/event/example-event-1/",
+      "rest_url": "http://tribe.localhost/wp-json/tribe/events/v1/events/6",
+      "title": "REST Event 1",
+      "description": "Example content",
+      "excerpt": "",
+      "image": {
+        "url": "http://tribe.localhost/wp-content/uploads/2017/09/raccoon.jpg",
+        "id": "8",
+        "extension": "jpg",
+        "width": 220,
+        "height": 147,
+        "sizes": {
+          "thumbnail": {
+            "width": 150,
+            "height": 147,
+            "mime-type": "image/jpeg",
+            "url": "http://tribe.localhost/wp-content/uploads/2017/09/raccoon-150x147.jpg"
+          }
+        }
+      },
+      "all_day": false,
+      "start_date": "2017-09-21 08:00:00",
+      "start_date_details": {
+        "year": "2017",
+        "month": "09",
+        "day": "21",
+        "hour": "08",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "end_date": "2017-09-21 17:00:00",
+      "end_date_details": {
+        "year": "2017",
+        "month": "09",
+        "day": "21",
+        "hour": "17",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_start_date": "2017-09-21 08:00:00",
+      "utc_start_date_details": {
+        "year": "2017",
+        "month": "09",
+        "day": "21",
+        "hour": "08",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_end_date": "2017-09-21 17:00:00",
+      "utc_end_date_details": {
+        "year": "2017",
+        "month": "09",
+        "day": "21",
+        "hour": "17",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "timezone": "UTC+0",
+      "timezone_abbr": "",
+      "cost": "$5",
+      "cost_details": {
+        "currency_symbol": "$",
+        "currency_position": "prefix",
+        "values": ["5"]
+      },
+      "website": "http://raccoons-ate-my-neighbour.com",
+      "show_map": false,
+      "show_map_link": false,
+      "hide_from_listings": false,
+      "sticky": false,
+      "featured": false,
+      "categories": [
+        {
+          "name": "rest-stuff",
+          "slug": "rest-stuff",
+          "term_group": 0,
+          "term_taxonomy_id": 2,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "id": 2,
+          "urls": {
+            "self": "http://tribe.localhost/wp-json/tribe/events/v1/categories/2",
+            "collection": "http://tribe.localhost/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "example",
+          "slug": "example",
+          "term_group": 0,
+          "term_taxonomy_id": 3,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "id": 3,
+          "urls": {
+            "self": "http://tribe.localhost/wp-json/tribe/events/v1/tags/3",
+            "collection": "http://tribe.localhost/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "raccoon",
+          "slug": "raccoon",
+          "term_group": 0,
+          "term_taxonomy_id": 4,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "id": 4,
+          "urls": {
+            "self": "http://tribe.localhost/wp-json/tribe/events/v1/tags/4",
+            "collection": "http://tribe.localhost/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ],
+      "venue": {
+        "id": 10,
+        "author": "1",
+        "status": "publish",
+        "date": "2017-09-21 12:00:59",
+        "date_utc": "2017-09-21 12:00:59",
+        "modified": "2017-09-21 12:00:59",
+        "modified_utc": "2017-09-21 12:00:59",
+        "url": "http://tribe.localhost/venue/raccoon-org/",
+        "venue": "raccoon Org",
+        "description": "Venue Description",
+        "address": "123, raccoon Ave.",
+        "city": "Raccon City",
+        "country": "United States",
+        "province": "raccoon County",
+        "state": "NH",
+        "zip": "12345",
+        "phone": "+112341234",
+        "website": "http://raccoons.org",
+        "stateprovince": "NH",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "tribe.localhost?id=10",
+        "global_id_lineage": ["tribe.localhost?id=10"]
+      },
+      "organizer": [
+        {
+          "id": 11,
+          "author": "1",
+          "status": "publish",
+          "date": "2017-09-21 12:01:48",
+          "date_utc": "2017-09-21 12:01:48",
+          "modified": "2017-09-21 12:01:48",
+          "modified_utc": "2017-09-21 12:01:48",
+          "url": "http://tribe.localhost/organizer/a-first-raccoon/",
+          "organizer": "A first raccoon",
+          "description": "Shy but packing a lot of punch.",
+          "phone": "+1233434234",
+          "website": "http://first-raccoon.com",
+          "email": "first@raccoon.com",
+          "global_id": "tribe.localhost?id=11",
+          "global_id_lineage": ["tribe.localhost?id=11"]
+        },
+        {
+          "id": 12,
+          "author": "1",
+          "status": "publish",
+          "date": "2017-09-21 12:02:43",
+          "date_utc": "2017-09-21 12:02:43",
+          "modified": "2017-09-21 12:02:43",
+          "modified_utc": "2017-09-21 12:02:43",
+          "url": "http://tribe.localhost/organizer/a-second-raccoon/",
+          "organizer": "A second raccoon",
+          "description": "Gentle and deadly.",
+          "phone": "+134473847",
+          "website": "http://raccoon-for-me.com",
+          "email": "racc00n@raccoon.for-me.com",
+          "global_id": "tribe.localhost?id=12",
+          "global_id_lineage": ["tribe.localhost?id=12"]
+        }
+      ]
+    }
+  ],
+  "rest_url": "http://tribe.localhost/wp-json/tribe/events/v1/events/?page=1&amp;per_page=10&amp;start_date=2017-09-21 01:59:00&amp;end_date=2019-09-21 13:06:27",
+  "total": 1,
+  "total_pages": 1
+}
